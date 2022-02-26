@@ -1,0 +1,24 @@
+package atl.client.g49582.exception;
+
+/**
+ *
+ * @author game
+ */
+public class ViewException extends Exception {
+    /**
+     * Creates a new instance of <code>ViewException</code> without detail
+     * message.
+     */
+    public ViewException() {
+    }
+
+    /**
+     * Constructs an instance of <code>ViewException</code> with the specified
+     * detail message.
+     *
+     * @param msg the detail message.
+     */
+    public ViewException(String msg) {
+        super(msg);
+    }
+}
